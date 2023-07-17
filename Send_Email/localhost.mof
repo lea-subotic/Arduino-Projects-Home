@@ -1,0 +1,38 @@
+/*
+@TargetNode='localhost'
+@GeneratedBy=leasu
+@GenerationDate=07/17/2023 13:20:38
+@GenerationHost=ASUS-ZENBOOK-DU
+*/
+
+instance of MSFT_PackageResource as $MSFT_PackageResource1ref
+{
+Name = "Notepad";
+ ProductId = "NotepadProductId";
+ ModuleName = "PsDesiredStateConfiguration";
+ SourceInfo = "C:\\Users\\leasu\\Downloads\\InstallNotepad.ps1::7::9::Package";
+ Ensure = "Present";
+ Path = "C:\\Users\\leasu\\Downloads\\npp.8.5.4.Installer.x64";
+ ResourceID = "[Package]Notepad";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "NotepadInstallation";
+};
+instance of OMI_ConfigurationDocument
+
+                    {
+ Version="2.0.0";
+
+                        MinimumCompatibleVersion = "1.0.0";
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+
+                        Author="leasu";
+
+                        GenerationDate="07/17/2023 13:20:38";
+
+                        GenerationHost="ASUS-ZENBOOK-DU";
+
+                        Name="NotepadInstallation";
+
+                    };
